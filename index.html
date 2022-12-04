@@ -7,6 +7,7 @@
         <title>Productly</title>
         <link rel="stylesheet" href="./src/styles/reset.css">
         <link rel="stylesheet" href="./src/styles/style.css">
+        <script src="https://kit.fontawesome.com/7e214218fa.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <header>
@@ -37,7 +38,7 @@
                     <p>Tools, tutorials, design and innovation experts, all in one place!
                         The most intuitive way to imagine your next user experience.
                     </p>
-                    <a href="#" class="button_orange">Get started</a>
+                    <a href="#footer_form" class="button_orange">Get started</a>
                 </div>
                 <div class="hero_img half-container float-left">
                     <img src="./src/images/hero-image.svg" alt="people">
@@ -49,36 +50,47 @@
                 <h2>We design tools to unveil your superpowers</h2>
                 <div class="benefits__items">
                     <div class="benefits__item">
-                        <img src="./src/images/icon-arrow.svg" alt="icon arrow">
+                        <div class="benefits__icon background-purpure">
+                            <i class="fa-sharp fa-solid fa-arrow-pointer"></i>
+                        </div>
                         <h3>First click tests</h3>
                         <p>While most people enjoy casino gambling</p>
                     </div>
                     <div class="benefits__item">
-                        <img src="./src/images/icon-wave.svg" alt="icon wave">
+                        <div class="benefits__icon background-yellow">
+                            <i class="fa-brands fa-stumbleupon"></i>
+                        </div>
                         <h3>Design surveys</h3>
                         <p>Sports betting, lottery and bingo playing for the fun</p>
                     </div>
                     <div class="benefits__item">
-                        <img src="./src/images/icon-heart.svg" alt="icon heart">
+                        <div class="benefits__icon background-red">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
                         <h3>Preference tests</h3>
                         <p>The Myspace page defines the individual.</p>
                     </div>
                     <div class="benefits__item">
-                        <img src="./src/images/icon-hourglass.svg" alt="icon hourglass">
+                        <div class="benefits__icon background-blue">
+                            <i class="fa-solid fa-hourglass-half"></i>
+                        </div>
                         <h3>Five second tests</h3>
                         <p>Personal choices and the overall personality of the person.</p>
                     </div>
+                </div>
+                <div class="benefits__button">
+                    <a href="#footer_form" class="button_orange">Sing in Now</a>
                 </div>
             </div>
         </section>
         <footer>
             <div class="container footer__items">
-                <div>
+                <div class="footer__item-big">
                     <a href="#">
                         <img src="./src/images/logo.svg" alt="logo">
                     </a>
                 </div>
-                <div>
+                <div class="footer__item-small">
                     <h3>Quick Links</h3>
                     <ul>
                         <li>
@@ -95,7 +107,7 @@
                         </li>
                     </ul>
                 </div>
-                <div>
+                <div class="footer__item-small">
                     <h3>Legal Stuff</h3>
                     <ul>
                         <li>
@@ -112,7 +124,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="footer__form">
+                <div class="footer__item-big" id="footer_form">
                     <h3>Knowing you're always on the best energy deal.</h3>
                     <form action="">
                         <input type="tel" name="tel" id="tel" placeholder="Enter your phone Number">
