@@ -50,7 +50,7 @@ h2 {
 p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 28px;
     color: #544837;
     margin-bottom: 20px;
@@ -147,6 +147,9 @@ header nav a:hover {
 .hero_text {
     padding: 97px 55px 97px 0;
 }
+.hero p {
+    font-size: 18px;
+}
 .hero_img img {
     max-width: 100%;
 }
@@ -163,11 +166,12 @@ header nav a:hover {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    margin: 0 -20px;
     margin-bottom: 70px;
 }
 .benefits__item {
     width: 25%;
-    margin: 0 20px;
+    padding: 0 20px;
 }
 .benefits__icon {
     width: 50px;
@@ -264,5 +268,6 @@ footer form input::placeholder {
     color: #BCD0E5;
 }
 #footer_form h3 {
+    width: 280px;
     margin-bottom: 20px;
 }
